@@ -1,0 +1,24 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "devcamper backend api",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludralph/devcamper_api.git"
+  },
+  "author": "Raphael Etim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ludralph/devcamper_api/issues"
+  },
+  "homepage": "https://github.com/ludralph/devcamper_api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
