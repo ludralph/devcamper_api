@@ -1,10 +1,13 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const bootcamps = require('./routes/bootcamps');
+const connectDB = require('./config/db')
 
 // load config vars
-
 dotenv.config({ path: './config/config.env'});
+
+// connnect DB
+connectDB();
 
 const app = express();
 
